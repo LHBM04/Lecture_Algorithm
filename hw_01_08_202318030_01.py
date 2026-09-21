@@ -4,6 +4,8 @@ def bubble_sort(array: list[int]):
     """인접한 두 원소를 비교하며 큰 값을 오른쪽으로 보낸다."""
     n: int = len(array)
 
+    # 1. 0 ~ n-1까지 반복
+    # 2. 1. + 1 ~ n-1까지 반복
     for i in range(n):
         for j in range(i, n):
             if array[i] > array[j]:
